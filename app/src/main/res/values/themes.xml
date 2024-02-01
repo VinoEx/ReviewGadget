@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BTGadget" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:windowContentTransitions">true</item>
+      <item name="colorPrimary">@color/blue</item>
+    </style>
+
+    <style name="Theme.BTGadget" parent="Base.Theme.BTGadget" />
+<style name="DialogAnimation">
+<item name="android:windowEnterAnimation">@anim/slide_in</item>
+    <item name="android:windowExitAnimation">@anim/slide_out</item>
+</style>
+</resources>

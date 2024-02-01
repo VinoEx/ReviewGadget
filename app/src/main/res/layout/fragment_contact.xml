@@ -1,0 +1,146 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactFragment"
+    android:background="@drawable/bg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:orientation="vertical">
+
+            <!-- Title TextView -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Developer"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:fontFamily="@font/itimregular"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="25dp"/>
+
+            <!-- ImageView1 and TextView1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="5dp"
+                    android:clickable="true"
+                    android:onClick="onImageClick"
+                    android:src="@drawable/vino" />
+
+
+                <TextView
+                    android:layout_width="186dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Nama : Calvin N.A. \nKelas : XI PPLG-B\nNo Abs : 9 \n"
+                    android:layout_marginBottom="-30dp"
+                    android:fontFamily="@font/itimregular"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- Include similar layouts for other images and text views -->
+
+            <!-- ImageView2 and TextView2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="5dp"
+                    android:clickable="true"
+                    android:onClick="onImageClick"
+                    android:src="@drawable/fian" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/itimregular"
+                    android:text="Nama : Favian P.A.S \nKelas : XI PPLG-B\nNo Abs : 16 \n"
+                    android:layout_marginBottom="-30dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- ImageView3 and TextView3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="5dp"
+                    android:clickable="true"
+                    android:onClick="onImageClick"
+                    android:src="@drawable/ifkar" />
+
+                <TextView
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/itimregular"
+                    android:text="Nama : Ifkar A.Q. \nKelas : XI PPLG-B\nNo Abs : 20 \n"
+                    android:layout_marginBottom="-30dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- ImageView4 and TextView4 -->
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="600dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="5dp"
+                    android:clickable="true"
+                    android:onClick="onImageClick"
+                    android:src="@drawable/isti" />
+
+                <TextView
+                    android:layout_width="155dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="148dp"
+                    android:fontFamily="@font/itimregular"
+                    android:text="Nama : Isti N.M. \nKelas : XI PPLG-B\nNo Abs : 22 \n"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- Add similar layouts for other images and text views -->
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

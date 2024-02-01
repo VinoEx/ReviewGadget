@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:background="@drawable/bg">
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/itimregular"
+            android:textColor="@color/blue"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="145dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:clickable="true"
+            android:onClick="onImageClick"
+            android:src="@drawable/iphone14pm"
+            android:transitionName="transitionIphone14pm"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="145dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="2dp"
+            android:clickable="true"
+            android:onClick="onImageClick"
+            android:src="@drawable/iphone15pm"
+            android:transitionName="transitionIphone15pm"/>
+
+        <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="145dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="3dp"
+        android:clickable="true"
+        android:onClick="onImageClick"
+        android:src="@drawable/rog7ultimate"
+            android:transitionName="transitionAsusROG7"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="145dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="1dp"
+        android:clickable="true"
+        android:onClick="onImageClick"
+        android:src="@drawable/pixel8pro"
+        android:transitionName="transitionPixel8pro"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="145dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-645dp"
+        android:clickable="true"
+        android:onClick="onImageClick"
+        android:src="@drawable/zfold"
+        android:transitionName="transitionzfold"/>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="145dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="1dp"
+        android:clickable="true"
+        android:onClick="onImageClick"
+        android:src="@drawable/pocof5"
+        android:transitionName="transitionpocof5"/>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="145dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="1dp"
+        android:clickable="true"
+        android:onClick="onImageClick"
+        android:src="@drawable/xiamoi13t"
+        android:transitionName="transitionxiaomi13t"/>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="145dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="1dp"
+        android:clickable="true"
+        android:onClick="onImageClick"
+        android:src="@drawable/smasungs23"
+        android:transitionName="transitionsamsung23"/>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="145dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="1dp"
+        android:clickable="true"
+        android:onClick="onImageClick"
+        android:src="@drawable/opporeno10"
+        android:transitionName="transitionopporeno10"/>
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

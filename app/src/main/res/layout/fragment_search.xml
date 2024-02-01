@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchFragment"
+    android:background="@drawable/bg">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Search lebih lanjut spesifikasi \nhp yang diinginkan"
+        android:paddingTop="525dp"
+        android:gravity="center"
+        android:textSize="23dp"
+        android:fontFamily="@font/itimregular"
+        />
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="307dp"
+        android:layout_height="398dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-60dp"
+        android:ems="10"
+        android:hint="Search More About Phone"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:fontFamily="@font/itimregular"
+        android:textStyle="bold"
+        android:inputType="text" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Search"
+        android:textSize="20dp"
+        android:fontFamily="@font/itimregular"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"/>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/backsearch"
+        android:layout_marginBottom="145dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"/>
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="500dp"
+        android:src="@drawable/logologin" />
+
+
+</FrameLayout>
